@@ -1,0 +1,88 @@
+body {
+    background-color: #7B68EE;
+    background-image: url(photo\ study.jpg);
+    font-size: 1rem;
+    font-family: Tahoma;
+}
+
+form {
+    background-color: #F4A460;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 0px;
+}
+
+h1{
+    text-align: center;
+    color: #D2691E;
+}
+
+.first-p {
+    text-align: center;
+    font-style: italic;
+    color: #D2691E;
+}
+
+.Input {
+    display: block;
+    padding: 8px;
+    width: 91.5%;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border-radius: 5px;
+    border: 0;
+}
+
+.radio-button {
+    display: inline;
+    margin-bottom: 2px;
+    margin-left: 0;
+}
+
+label {
+    display: block;
+    padding-left: 20px;
+}
+
+select {
+    display: block;
+    padding: 8px;
+    width: 95%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+textarea {
+    display: block;
+    height: 100px;
+    margin-bottom: 10px;
+    width: 93%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.Submit {
+    margin-left: 13px;
+    width: 90%;
+    height: 40px;
+    background-color: #D2691E;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.A {
+    margin-bottom: 20px;
+}
+
+legend {
+    margin-left: 17px;
+}

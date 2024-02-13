@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet", href="styles.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description" class="first-p">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">Name <input type="text" required id="name" placeholder="Enter your name" class="Input"></label>
+                <label for="email" id="email-label">Email <input type="email" required id="email" placeholder="Enter your Email" class="Input"></label>
+                <label for="number" id="number-label">Age (optional) <input type="number" id="number" min="10" max="99" placeholder="Age" class="Input"></label>
+                <label>Which option best describes your current role?
+                    <select id="dropdown">
+                        <option>Select current role</option>
+                        <option>Student</option>
+                        <option>Full Time Job</option>
+                        <option>Full Time Learner</option>
+                        <option>Prefer not to say</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                <label><input type="radio" name="recommend" checked value="yes" class="radio-button">Definitely</label>
+                <label><input type="radio" name="recommend" value="I-think" class="radio-button">Maybe</label>
+                <label class="A"><input type="radio" name="recommend" value="i-dont-know" class="radio-button">Not sure</label>
+                <label>What is your favorite feature of freeCodeCamp?
+                    <select id="dropdown">
+                        <option>Select current role</option>
+                        <option>Challenges</option>
+                        <option>Projects</option>
+                        <option>Community</option>
+                        <option>Open Source</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>What would you like to see improved? (Check all that apply)</legend>
+                <label><input type="checkbox" name="Front-end-project" value="1" class="radio-button"> Front-end Projects</label>
+                <label><input type="checkbox" name="Back-end-project" value="2" class="radio-button"> Back-end Projects</label>
+                <label><input type="checkbox" name="Data-visualization" value="3" class="radio-button"> Data Visualization</label>
+                <label><input type="checkbox" name="Challenges" value="4" class="radio-button"> Challenges</label>
+                <label><input type="checkbox" name="Open-source-Community" value="5" class="radio-button"> Open Source Community</label>
+                <label><input type="checkbox" name="Gitter-help-rooms" value="6" class="radio-button"> Gitter help rooms</label>
+                <label><input type="checkbox" name="Videos" value="7" class="radio-button"> Videos</label>
+                <label><input type="checkbox" name="City-Meetups" value="8" class="radio-button"> City Meetups</label>
+                <label><input type="checkbox" name="Wiki" value="9" class="radio-button"> Wiki</label>
+                <label><input type="checkbox" name="Forum" value="10" class="radio-button"> Forum</label>
+                <label class="A"><input type="checkbox" name="Additional-Courses" value="11" class="radio-button"> Additional Courses</label>
+
+                <label>Any comments or suggestions?
+                    <textarea name="suggestions" placeholder="Enter your comment here...">
+                    </textarea>
+                </label>
+            </fieldset>
+            <label><input type="submit" id="submit" class="Submit"></label>
+        </form>
+    </body>
+</html>
