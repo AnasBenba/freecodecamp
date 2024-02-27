@@ -1,0 +1,44 @@
+#image{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#title{
+    text-align: center;
+    font-family: sans-serif;
+}
+#img-caption{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+#tribute-info li {
+    padding-top: 25px;
+    font-family: sans-serif;
+}
+.text{
+    text-align: center;
+    font-family: sans-serif;
+}
+.quote{
+    font-style: italic;
+    padding-left: 20px;
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+.foot{
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+a{
+    color: deepskyblue;
+}
+span{
+    display: block;
+    padding-top: 15px;
+}
