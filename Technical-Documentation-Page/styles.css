@@ -1,0 +1,104 @@
+main{
+    position: relative;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sections{
+    position: absolute;
+    left: 26%;
+    width: 70%;
+    padding-top: 10px;
+}
+
+.nav-link{
+    display: block;
+    border-top: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    padding-left: 25px;
+    text-decoration: none;
+    color: grey;
+}
+
+#navbar{
+    width: 23%;
+    position: fixed;
+    
+    height: 100vh;
+    margin-left: 0;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 1px lightgray,
+              0 0 0 1px lightgray;
+}
+
+#navbar .list{
+    overflow-y: auto;
+    max-height: 516px;
+    list-style: none;
+    width: 100%;
+}
+
+
+@media (min-height: 700px){
+    #navbar .list{
+        max-height: 916px;
+        width: 100%;
+    }
+    #navbar{
+        width: 16%;
+        position: fixed;
+        border-right: 2px solid darkgrey;
+        height: 100%;
+        margin-left: 0;
+    }
+    .sections{
+        position: absolute;
+        left: 18%;
+        width: 70%;
+        padding-top: 10px;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.list{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-section ul{
+    margin-left: 40px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.main-section p{
+    margin-left: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.main-section ul > li{
+    padding-top: 15px;
+}
+code {
+    background-color: lightgray;
+    margin-top: 15px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+#navbar header{
+    padding-left: 25px;
+}
