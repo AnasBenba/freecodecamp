@@ -51,10 +51,11 @@ body{
     }
     #navbar{
         width: 16%;
-        position: fixed;
         border-right: 2px solid darkgrey;
         height: 100%;
         margin-left: 0;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
     .sections{
         position: absolute;
@@ -62,6 +63,19 @@ body{
         width: 70%;
         padding-top: 10px;
     }
+    body{
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-rows: 10% 90%;
+    }
+    main{
+        position: relative;
+        font-family: sans-serif;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
 }
 
 *{
