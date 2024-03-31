@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from core.views import index, contact
+from core.views import index, contact, redirect_me
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -25,4 +25,5 @@ urlpatterns = [
     path('contact/', contact, name='contact'),
     path('admin/', admin.site.urls),
     path('items/', include('items.urls')),
+    path('redirect_me/', redirect_me, name='redirect_me'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
